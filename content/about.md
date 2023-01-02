@@ -32,7 +32,7 @@ Previous Life :
 - Other misc topics I am reading - Solarpunk, Permaculture, Homesteading, Systems Thinking, OpenBCI
 
 
-## Random Musings
+### Random Musings
 - Writing `About Me` is hard. 
 - Few `About Me` pages I like 
   - [Gwern's](https://www.gwern.net/Links) - Very sophisticated

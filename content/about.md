@@ -17,7 +17,7 @@ I am a software engineer.
 
 Previous Life : 
 - Cofounder at Cognirel ([acq. by VerSe](https://www.crunchbase.com/acquisition/verse-innovations-acquires-cognirel--89123fa5))
-- Worked at Interview Kickstart, Flipart and VMware
+- Worked at Interview Kickstart, Flipkart and VMware
 - Bachelor's in Computer Science from BITS Pilani, Pilani
 
 

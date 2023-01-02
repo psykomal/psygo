@@ -37,8 +37,12 @@ pygmentsUseClasses = true
 # And your top-right menu links here.
 
 [[params.topmenu]]
-  name = "my favourite bird"
-  url = "posts/kookaburra/"
+  name = "about"
+  url = "about"
+
+[[params.topmenu]]
+  name = "contact"
+  url = "contact"
 
 [[params.topmenu]]
   name = "rss"

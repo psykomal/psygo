@@ -60,6 +60,7 @@ But why learn compilers, if I am never gonna use them right? This question bothe
 4. **Programs that deal with code of any form**
 
 	> *Compilers take a stream of symbols, figure out their structure according to some domain-specific predefined rules, and transform them into another symbol stream.*
+	>
 	> 	-- Steve Yegge
 
 	That stream of symbols can be anything from images to sounds. Those might be a rare use case but any form of program that deals with code - Auto format tools, Syntax highlighting, doc extractor, linters, even rendering code in a text editor. Steve mentions [a set of interesting examples in his post](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html).

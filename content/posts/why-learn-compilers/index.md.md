@@ -34,7 +34,7 @@ This hit me right in the spot and made me wanna learn more.
 But why learn compilers, if I am never gonna use them right? This question bothered me and kept me searching for answers. This post is the **compilation** (haha!) of my research so far. 
 
 
-1. **It's fun and deeply satisfying in itself**. For the sheer joy of it. Demystify our tools. and Flow
+1. **It's fun and deeply satisfying in itself**. For the sheer joy of it. Demystify our tools. And Flow
 
 	Let's get the main thing out of the way. It's deeply human to get to the heart of anything we love. As a programmer or yet a craftsman, we care about the tools we use and a compiler is a tool we use all the time, often without realizing it. As Phil Eaton says on the [**Spirit of Building**](https://letters.eatonphil.com/2023-01-01-letter-to-a-frontend-developer-asking-about-database-development.html) -
 

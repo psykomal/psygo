@@ -29,7 +29,7 @@ This is not an attempt to persuade anyone to skip college and self-study Compute
 
 1. I am talking as someone with a Bachelor's in CS from India and around 4 yrs of industry experience
 2. I consider myself a practitioner rather than a researcher and focused on improving as a practitioner
-3. By masters, I mean masters in Computer Science from US, Canada or European universities)=. This doesn't matter much but some of the statements below make more sense in this context
+3. By masters, I mean masters in Computer Science from US, Canada or European universities. This doesn't matter much but some of the statements below make more sense in this context.
 4. I do not have anything against college.
 
   

@@ -104,6 +104,7 @@ Now that I have enough convincing reasons to go down the compiler rabbit hole an
 - [Crafting Interpreters](https://craftinginterpreters.com/)
 - [So You Want to Be a (Compiler) Wizard](https://belkadan.com/blog/2016/05/So-You-Want-To-Be-A-Compiler-Wizard/)
 - [Nice collection of resources by Phil Eaton](https://lists.eatonphil.com/compilers-and-interpreters.html)
+- [Lessons from Writing a Compiler](https://borretti.me/article/lessons-writing-compiler)
 
 If you are just beginning, I would recommend using some of these to get you going and excited -
 
@@ -111,6 +112,17 @@ If you are just beginning, I would recommend using some of these to get you goin
 - [Make a lisp](https://github.com/kanaka/mal)
 - [Teeny Tiny compiler (3 parts)](https://austinhenley.com/blog/teenytinycompiler1.html)
 - [Lisp interpreter in Rust](https://vishpat.github.io/lisp-rs/overview.html)
+
+
+### References
+
+- [Rich Programmer Food by Steve Yegge](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html)
+- [Why Learn Compilers by Amjad Masad](https://amasad.me/compilers)
+- This [reddit post](https://www.reddit.com/r/Compilers/comments/101b6kb/why_should_i_learn_compilers/)where I asked this question and got many awesome answers
+- [Scratching the PL Itch by Danny Yang](https://yangdanny97.github.io/blog/2022/09/03/scratching-the-pl-itch)
+- [Stackoverflow answer](https://stackoverflow.com/a/733190)
+- ["Stop Writing Dead Programs" by Jack Rusher (Strange Loop 2022)](https://youtu.be/8Ab3ArE8W3s?list=PLcGKfGEEONaDO2dvGEdodnqG5cSnZ96W1)
+- [nikiv digital garden](https://wiki.nikiv.dev/compilers/)
 
 
 #### Random Musings

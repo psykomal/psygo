@@ -24,7 +24,7 @@ Recently, I attended [the lambda retreat](https://anandology.com/lambda-retreat/
 
 Yet, it felt like I merely scratched the surface. And as Steve says in his article [Rich Programmer Food](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html) - 
 
-> If you don't know how compilers work, then you don't know how computers work. If you're not 100% sure whether you know how compilers work, then you don't know how they work.
+> *If you don't know how compilers work, then you don't know how computers work. If you're not 100% sure whether you know how compilers work, then you don't know how they work.*
 
 
 This hit me right in the spot and made me wanna learn more. 
@@ -59,7 +59,7 @@ But why learn compilers, if I am never gonna use them right? This question bothe
 
 4. **Programs that deal with code of any form**
 
-	> Compilers take a stream of symbols, figure out their structure according to some domain-specific predefined rules, and transform them into another symbol stream.
+	> *Compilers take a stream of symbols, figure out their structure according to some domain-specific predefined rules, and transform them into another symbol stream.*
 	> 	-- Steve Yegge
 
 	That stream of symbols can be anything from images to sounds. Those might be a rare use case but any form of program that deals with code - Auto format tools, Syntax highlighting, doc extractor, linters, even rendering code in a text editor. Steve mentions [a set of interesting examples in his post](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html).

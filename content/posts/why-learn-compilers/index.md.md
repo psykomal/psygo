@@ -118,7 +118,7 @@ If you are just beginning, I would recommend using some of these to get you goin
 
 - [Rich Programmer Food by Steve Yegge](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html)
 - [Why Learn Compilers by Amjad Masad](https://amasad.me/compilers)
-- This [reddit post](https://www.reddit.com/r/Compilers/comments/101b6kb/why_should_i_learn_compilers/)where I asked this question and got many awesome answers
+- This [reddit post](https://www.reddit.com/r/Compilers/comments/101b6kb/why_should_i_learn_compilers/) where I asked this question and got many awesome answers
 - [Scratching the PL Itch by Danny Yang](https://yangdanny97.github.io/blog/2022/09/03/scratching-the-pl-itch)
 - [Stackoverflow answer](https://stackoverflow.com/a/733190)
 - ["Stop Writing Dead Programs" by Jack Rusher (Strange Loop 2022)](https://youtu.be/8Ab3ArE8W3s?list=PLcGKfGEEONaDO2dvGEdodnqG5cSnZ96W1)

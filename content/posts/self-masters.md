@@ -189,7 +189,8 @@ This is one of the best things a college gives you. However, there are other way
 	1. **The Programmer's Brain** by Felienne Hermans is a book that connects this gap and offers techniques to improve programming and learning by leveraging cognitive science. When learning a new programming language or reading new code, we encounter memory problems requiring memory solutions. 
 
 
-## [Recurse Center](https://www.recurse.com/) - The retreat where curious programmers recharge and grow
+## [Recurse Center](https://www.recurse.com/)
+### The retreat where curious programmers recharge and grow
 
 Recurse Center is a self-directed programming retreat where you spend all your time getting better at programming and learning things you are most curious about, along with other motivated peers, at zero cost. I am unaware of any other retreat or community that comes close (Do let me know if you do). 
 
@@ -199,6 +200,6 @@ Here are some [reasons](https://www.recurse.com/why) you might want to consider 
 
 1. It meets all my [goals of self.masters](/posts/self-masters/#goals)
 2. It celebrates and facilitates self-learning and programming
-3. Many of the past recursers have done things I am interested in
+3. Many of the past recursers have done things I am interested in and excited about
 4. The people - When you bring passionate programmers together, **magic** can happen
 5. The awesome technical community

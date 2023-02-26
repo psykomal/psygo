@@ -1,6 +1,6 @@
 +++
 author = "psykomal"
-title = "Why am I learning Compilers"
+title = "Why learn Compilers"
 date = "2023-01-03"
 description = ""
 tags = [

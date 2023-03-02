@@ -4,7 +4,7 @@ title = "self.masters"
 date = "2023-01-05"
 description = ""
 tags = [
-	"education", "masters", "recurse"
+	"education", "masters", "self-study", "meta-learning"
 ]
 +++
   

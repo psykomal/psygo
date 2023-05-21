@@ -185,7 +185,11 @@ This is one of the best things a college gives you. However, there are other way
 ### **Learning**
 
 1. I'll leave this section to swyx's perfect post - [How To Learn In Private](https://www.swyx.io/learn-in-private)
-2. One last thing - *We programmers learn computer internals to become better programmers, shouldn't we learn brain internals to become better thinkers and brain users?* 
+2. A primer on motivation - https://csprimer.com/articles/consistency/
+3. One last thing - *We programmers learn computer internals to become better programmers, shouldn't we learn brain internals to become better thinkers and brain users?* 
 	1. **The Programmer's Brain** by Felienne Hermans is a book that connects this gap and offers techniques to improve programming and learning by leveraging cognitive science. When learning a new programming language or reading new code, we encounter memory problems requiring memory solutions. 
 
 
+
+### Random Musings:
+1. [csprimer](https://csprimer.com/) is an awesome resource synergistic to the philopsophy of this post. I am currently a subsriber.

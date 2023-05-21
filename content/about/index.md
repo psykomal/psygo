@@ -14,7 +14,7 @@ I write about :
 ## About me
 
 
-I am a software engineer.
+I am yet another software engineer.
 
 Previous Life : 
 - Cofounder at Cognirel ([acq. by VerSe](https://www.crunchbase.com/acquisition/verse-innovations-acquires-cognirel--89123fa5))
@@ -23,14 +23,14 @@ Previous Life :
 
 
 ### What am I doing now?
-(Updated Jan 2nd, 2023, from my home)
+(Updated May 21st, 2023)
 
-- Currently off-the-grid, funemployed and exploring stuff
+- Currently [resting in motion](https://mindingourway.com/rest-in-motion/).
 - Trying to get deeper and learn software internals by building them (think compiler, VM, kernel, database engine, RPi)
-- Learning Rust
 - Exploring the relation between brain, programming and software design
-- Exploring meditation, mental health and my relationship with fear and shame
-- Other misc topics I am reading - Solarpunk, Permaculture, Homesteading, Systems Thinking, OpenBCI
+- Exploring meditation, mental health and reflecting/reorienting my relationship with everything
+- Other misc topics I am reading - Solarpunk, Permaculture, Systems Thinking, LLM stuff
+- Thinking deeply about Nate Soare's [Minding Our Way](https://mindingourway.com/) articles and Mindful CBT
 
 
 ### Random Musings

@@ -30,9 +30,9 @@ This is a challenge I am taking of blogging 12 days everyday (well not exactly) 
 
   
 
-So for 12 days starting today, I am going to produce an article a day. Will tackle things I see as blackboxes, things I am curious about, or some techincal question that is bugging me lately.
+So for 12 days starting today, I am going to produce roughly an article every 2-3 days (this will balance the quality of the article with the speed of production). Will tackle things I see as blackboxes, things I am curious about, or some techincal question that is bugging me lately.
 
-  
+
 
 **What am I going to write about**:
 

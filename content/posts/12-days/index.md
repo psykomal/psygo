@@ -4,7 +4,7 @@ title = "12 days of blogging"
 date = "2023-07-09"
 description = ""
 tags = [
-    "blog", "12 days"
+    "blog", "12-days"
 ]
 +++
 

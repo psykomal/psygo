@@ -140,12 +140,25 @@ These are used for I/O multiplexing and event notification which is at the core 
 
 Few more observations:
 - The master process creates the sockets and listens
-- This is a bit unclear to me from the code as of now, but seems like multiple processes are calling `accept()` when a new connection is available through the chosen multiplexing method. Given that these methods are thread-safe, it makes sense. This is also confirmed by Cloudflare's blog https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing/ . **It's still a bit unclear and I plan to dig deeper maybe in a separate article. Check the below section for some traditional ways this is done.**
+- This is a bit unclear to me from the code as of now, but seems like multiple processes are calling `accept()` when a new connection is available through the chosen multiplexing method. Given that these methods are thread-safe, it makes sense. This is also confirmed by Cloudflare's blog https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing/ . **It's still a bit unclear and I plan to dig deeper in the code maybe in a separate article. Check the below section for some traditional ways this is done.**
 
 {{< figure
 		  src="nginx_imgs/nginx-multi-worker.png"
 		  caption="([source](https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing/))"
 >}}
+
+- According to this [presentation](https://www.slideshare.net/joshzhu/nginx-internals), there is an accept_mutex that the worker processes take a lock on before calling the accept. Then pick the accept events for themselves. Below are a few useful images related to the flow. However remember, code is the source of truth.
+
+
+{{< figure
+		  src="nginx_imgs/events-timers.png"
+		  caption="([source](https://www.slideshare.net/joshzhu/nginx-internals))"
+>}}
+{{< figure
+		  src="nginx_imgs/accept-mutex.png"
+		  caption="([source](https://www.slideshare.net/joshzhu/nginx-internals))"
+>}}
+
 
 But hang on, there's more...
 
@@ -171,11 +184,10 @@ By contrast, SO_REUSEPORT allows for even distribution of load across all the li
 
 
 Check this [article](https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing/) for a deeper discussion and numbers of how the load balancing plays, and also some of the issues with this approach. Unfortunately in high-load situations, the latency distribution might degrade even for SO_REUSEPORT. The best approach seems to be to use epoll with FIFO behavior. Cloudflare seems to address these issues in its NGINX replacement, [Pingora](https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/). 
- 
+
 
 ### Closing Notes
 
 - We have seen nginx basic internals and how the load is distributed among its workers. What is Socket Sharding and how it works
-- The nginx code of whether the accept is called by worker threads or a different thread is still unclear but seems like the probability is on the former. Needs to be looked at deeper, for another post! However, I am still satisfied to learn about the different ways of doing this, and makes me only more curious.
 - nginx thread pools are something interesting to look at next
 - Scaling accept is another interesting area. How does the kernel maintain incoming connections in a queue and what is its limit

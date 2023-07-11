@@ -134,6 +134,8 @@ NGINX provides the following connection methods which is set in the `ngx_event_c
 - epoll
 - /dev/poll
 - eventport
+
+
 These are used for I/O multiplexing and event notification which is at the core of nginx. For more about I/O multiplexing read https://notes.shichao.io/unp/ch6/#io-multiplexing-model
 
 Few more observations:

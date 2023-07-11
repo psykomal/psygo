@@ -183,11 +183,14 @@ By contrast, SO_REUSEPORT allows for even distribution of load across all the li
 >}}
 
 
-Check this [article](https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing/) for a deeper discussion and numbers of how the load balancing plays, and also some of the issues with this approach. Unfortunately in high-load situations, the latency distribution might degrade even for SO_REUSEPORT. The best approach seems to be to use epoll with FIFO behavior. Cloudflare seems to address these issues in its NGINX replacement, [Pingora](https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/). 
+Check this [article](https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing/) for a deeper discussion and numbers of how the load balancing plays, and also some of the issues with this approach. Unfortunately in high-load situations, the latency distribution might degrade even for SO_REUSEPORT. The best approach seems to be to use epoll with FIFO behavior and EPOLLEXCLUSIVE flag noted in [this](https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/) article. Cloudflare seems to address these issues in its NGINX replacement, [Pingora](https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/). 
 
 
 ### Closing Notes
 
 - We have seen nginx basic internals and how the load is distributed among its workers. What is Socket Sharding and how it works
-- nginx thread pools are something interesting to look at next
+- nginx thread pools are something interesting to look at next - https://www.nginx.com/blog/thread-pools-boost-performance-9x/
+  - Thread pools are essentially separate threads to which the worker processes can offload tasks so that they don't block the event loop. aio is used here.
 - Scaling accept is another interesting area. How does the kernel maintain incoming connections in a queue and what is its limit
+- EPOLLEXCLUSIVE is something to have a look at.
+- All that said, nginx is not the most performant proxy anymore and there are new kids on the block, the latest being Pingora by Cloudflare. [Here's](https://dropbox.tech/infrastructure/how-we-migrated-dropbox-from-nginx-to-envoy) a comparison between NGINX and Envoy and why Dropbox made the shift.

@@ -108,8 +108,9 @@ Steps:
 
 ### *backlog* argument
 
-- The arg is the sum of both the queues
-- Its multiplied by 1.5 internally as a fudge factor
+- The arg is the sum of both the queues histroically. But varies implementation wise and is diffierent in different OS.
+- Its multiplied by 1.5 internally as a fudge factor in Berkeley-derived implementations
+- From linux 2.2, backlog arg is the queue length for completely established sockets waiting to be accepted, instead of the number of incomplete connection requests. If the backlog argument is greater than `/proc/sys/net/core/somaxconn`, it is silently truncated to that value. The maximum length of the queue for incomplete sockets can be set using `/proc/sys/net/ipv4/tcp_max_syn_backlog`.
 - **Fixed number of connections**. Historically the reason for queuing a fixed number of connections is to handle the case of the server process being busy between successive calls to accept. This implies that of the two queues, the completed queue should normally have more entries than the incomplete queue. Again, busy Web servers have shown that this is false. The reason for specifying a large backlog is that the incomplete connection queue can grow as client SYNs arrive, waiting for the completion of the three-way handshake.
 - **No RST sent if queues are full**. If the queues are full when a client SYN arrives, TCP ignores the arriving SYN; it does not send an RST. This is because the condition is considered temporary, and the client TCP will retransmit its SYN, hopefully finding room on the queue in the near future. If the server TCP immediately responded with an RST, the client's `connect` would return an error, forcing the application to handle this condition instead of letting TCP's normal retransmission take over. Also, the client could not differentiate between an RST in response to a SYN meaning "there is no server at this port" versus "there is a server at this port but its queues are full."
 - **Data queued in the socket's receive buffer**. Data that arrives after the three-way handshake completes, but before the server calls `accept`, should be queued by the server TCP, up to the size of the connected socket's receive buffer. 
@@ -124,6 +125,7 @@ A famous attack is the SYN flood where the idea is to fill the incomplete queue 
 
 
 - A lot of the information in this blog is from the amazing **UNIX Network Programming book** and [Shichao's Notes](https://notes.shichao.io/unp/ch4/)
+- For even more in-depth info regarding this, check [TCP Socket Listen: A Tale of Two Queues](http://arthurchiao.art/blog/tcp-listen-a-tale-of-two-queues/#6-a-tale-of-two-queues)
 - Another interesting thing here is how **accept** scales which leads to the infamous thundering herd problem. This is a topic for another blog (next one maybe!)
 - Ending on a philosophical note
 

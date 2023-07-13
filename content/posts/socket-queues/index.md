@@ -62,7 +62,7 @@ while True:
 ```
 
 
-### What happens when there are more clients coming at one
+### What happens when there are more clients coming at once
 
 
 We need to take a closer look at **listen** and **accept** calls to understand what's going on here. 
@@ -108,7 +108,7 @@ Steps:
 
 ### *backlog* argument
 
-- The arg is the sum of both the queues histroically. But varies implementation wise and is diffierent in different OS.
+- The arg is the sum of both the queues historically. But varies implementation wise and is different in different OS.
 - Its multiplied by 1.5 internally as a fudge factor in Berkeley-derived implementations
 - From linux 2.2, backlog arg is the queue length for completely established sockets waiting to be accepted, instead of the number of incomplete connection requests. If the backlog argument is greater than `/proc/sys/net/core/somaxconn`, it is silently truncated to that value. The maximum length of the queue for incomplete sockets can be set using `/proc/sys/net/ipv4/tcp_max_syn_backlog`.
 - **Fixed number of connections**. Historically the reason for queuing a fixed number of connections is to handle the case of the server process being busy between successive calls to accept. This implies that of the two queues, the completed queue should normally have more entries than the incomplete queue. Again, busy Web servers have shown that this is false. The reason for specifying a large backlog is that the incomplete connection queue can grow as client SYNs arrive, waiting for the completion of the three-way handshake.
@@ -129,4 +129,4 @@ A famous attack is the SYN flood where the idea is to fill the incomplete queue 
 - Another interesting thing here is how **accept** scales which leads to the infamous thundering herd problem. This is a topic for another blog (next one maybe!)
 - Ending on a philosophical note
 
-> Life is queues all the way down. A store is a queue with one side closed. Things flow from one end to another. Money flows, Information flows, Matter flows, Time flows, and so do we...
+> Life is queues all the way down. A store is a queue with one side closed. Things flow from one end to another and stored in a place for a while. Money flows, Information flows, Matter flows, Time flows, and so do we...

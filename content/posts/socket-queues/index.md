@@ -30,6 +30,37 @@ This one is going to be short. Recently I wrote about NGINX socket multiplexing.
 	- The server then calls **accept**, which creates a new connection (a different PORT in the server) to handle this client
 	- The client and server can freely communicate using the sockets until one of them closes the connection or some network issue occurs
 
+```python
+# A simple TCP server in python that reads headers and data
+import socket
+import json
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+s.bind(('0.0.0.0', 7777))
+
+s.listen()
+print("Listening for connections...")
+
+while True:
+    conn, addr = s.accept()
+    print(f"New connection at {addr}")
+    
+    req = conn.recv(4096)
+    
+    headers, body = req.split(b'\r\n\r\n')
+
+    data = {}
+    for header in headers.split(b'\r\n')[1:]:
+        k, v = header.split(b': ')
+        data[k.decode('utf-8')] = v.decode('utf-8')
+    
+    conn.send(b'HTTP/1.1 200 OK\r\n\r\n')
+    conn.send(json.dumps(data, indent=4).encode('utf-8'))
+    
+    conn.close()
+```
+
 
 ### What happens when there are more clients coming at one
 

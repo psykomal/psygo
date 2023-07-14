@@ -245,6 +245,9 @@ if __name__ == '__main__':
 
 - That's it. This article was just ammo. Now go ahead and read the [article](https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/) for the actual killing. Also check out the combined queue model and the video which is really cool
 - After doing all this research, I have a nagging sense that I am barely scratching the surface. OMG! There's so much more. But you got to start somewhere right?
+- Another interesting thing to me was Gunicorn still uses select and is prone to the thundering herd problem. It is well documented in their [website](https://docs.gunicorn.org/en/stable/faq.html?ref=blog.clubhouse.com#does-gunicorn-suffer-from-the-thundering-herd-problem). This [issue](https://github.com/benoitc/gunicorn/issues/792) thread discussing looks like they are moving towards using **epoll** and `--thunder-lock` option like in uWSGI
+	- Here's a deep read about how uWSGI solved it - https://uwsgi-docs.readthedocs.io/en/latest/articles/SerializingAccept.html
+	- Here's how Clubhouse solved its thundering herd problem due to Gunicorn. A super fun read. ***Spoiler Alert*** -  they end up using HAProxy for load balancing across multiple manually spawn **master** Gunicorn workers instead of letting Gunicorn load balance amongst itself.
 - References:
 	- https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/
 	- https://man7.org/linux/man-pages/man2/select.2.html
@@ -256,7 +259,6 @@ if __name__ == '__main__':
 - TODOs:
 	- Read this [article](http://www.citi.umich.edu/projects/linux-scalability/reports/accept.html) on Linux `accept()` scalability
 	- Read about `kqueue` which is mentioned as a better successor to epoll. I could be wrong here but that's what I read at places.
-
 
 
 

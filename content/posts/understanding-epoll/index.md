@@ -1,6 +1,6 @@
 +++
 author = "psykomal"
-title = "Understanding epoll, IO Multiplexing"
+title = "Understanding epoll, I/O Multiplexing"
 date = "2023-07-14"
 description = ""
 tags = [

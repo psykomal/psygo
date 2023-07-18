@@ -208,6 +208,7 @@ Some practical tips from the land of DOD (straight out of Andrew Kelley's Practi
 ## Closing Notes
 
 - Modern Games use DOD extensively and there is a whole other paradigm called ECS (Entity Component Systems) for that itself. 
+- Explore `perf` to analyze L cache missed and loads.
 - The following awesome resources helped in building this article
 	- [Andrew Kelley - Practical DOD](https://vimeo.com/649009599)
 	- [CS Primer](https://csprimer.com)

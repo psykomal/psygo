@@ -4,7 +4,7 @@ title = "L 1.2..3...RAM!"
 date = "2023-07-18"
 description = ""
 tags = [
-    "blog", "12-days", "cache", "optimization", "low-level"
+    "12-days", "cache", "optimization", "low-level"
 ]
 +++
 

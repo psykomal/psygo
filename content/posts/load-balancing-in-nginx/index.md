@@ -4,7 +4,7 @@ title = "Load Balancing inside the Load Balancer, nginx"
 date = "2023-07-11"
 description = ""
 tags = [
-    "blog", "12-days", "web-server", "nginx"
+    "12-days", "web-server", "nginx"
 ]
 +++
 

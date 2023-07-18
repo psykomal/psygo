@@ -4,7 +4,7 @@ title = "It's queues all the way down"
 date = "2023-07-13"
 description = ""
 tags = [
-    "blog", "12-days", "socket", "networking", "queue"
+    "12-days", "socket", "networking", "queue"
 ]
 +++
 

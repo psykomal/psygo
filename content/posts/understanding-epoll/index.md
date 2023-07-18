@@ -259,6 +259,7 @@ if __name__ == '__main__':
 - TODOs:
 	- Read this [article](http://www.citi.umich.edu/projects/linux-scalability/reports/accept.html) on Linux `accept()` scalability
 	- Read about `kqueue` which is mentioned as a better successor to epoll. I could be wrong here but that's what I read at places.
+	- Checkout **io_uring**
 
 
 

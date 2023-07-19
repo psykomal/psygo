@@ -215,6 +215,9 @@ Some practical tips from the land of DOD (straight out of Andrew Kelley's Practi
 	- [Data Locality - Game Programming Patterns](https://gameprogrammingpatterns.com/data-locality.html)
 	- https://stackoverflow.com/questions/25612029/structure-padding-what-is-the-purpose-of-natural-alignment
 	- GPT
+- Next to reads:
+  - [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
+  - [ANALYSIS OF 'WHAT EVERY PROGRAMMER SHOULD KNOW ABOUT MEMORY'](https://samueleresca.net/analysis-of-what-every-programmer-should-know-about-memory/)
 - More references
 	- [DOD book](https://www.dataorienteddesign.com/dodbook/node3.html)
 

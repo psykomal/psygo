@@ -247,13 +247,16 @@ For writes,
 
 To see what is mounted on your system, and at which points, simply run the mount program. You’ll see something like this:
 
->/dev/sda1 on / type ext3 (rw)
-  proc on /proc type proc (rw)
-  sysfs on /sys type sysfs (rw)
-  /dev/sda5 on /tmp type ext3 (rw)
-  /dev/sda7 on /var/vice/cache type ext3 (rw)
-  tmpfs on /dev/shm type tmpfs (rw)
-  AFS on /afs type afs (rw)
+```bash
+$ mount
+/dev/sda1 on / type ext3 (rw)
+proc on /proc type proc (rw)
+sysfs on /sys type sysfs (rw)
+/dev/sda5 on /tmp type ext3 (rw)
+/dev/sda7 on /var/vice/cache type ext3 (rw)
+tmpfs on /dev/shm type tmpfs (rw)
+AFS on /afs type afs (rw)
+```
 
 This crazy mix shows that a whole number of different file systems, including ext3 (a standard disk-based file system), the proc file system (a file system for accessing information about current processes), tmpfs (a file system just for temporary files), and AFS (a distributed file system) are all glued together onto this one machine’s file-system tree.
 

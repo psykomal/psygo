@@ -16,7 +16,7 @@ This is a mindmap of my notes from various sources mentioned below.
 - [Concurrency In Go - Katherine Cox-Buday](https://www.oreilly.com/library/view/concurrency-in-go/9781491941294/)
 
 
-It is an ongoing effort to connect various concepts through visual relationships. Currently the mindmap is not optimized to be viewed in the browser. Until I come up with a better way or integrate a viewing tool, consider downlaoding and viewing in an image viewer.
+It is an ongoing effort to connect various concepts through visual relationships. Currently the mindmap is not optimized to be viewed in the browser. Until I come up with a better way or integrate a viewing tool, consider downloading and viewing in an image viewer.
 
 
 [{{< figure

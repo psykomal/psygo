@@ -16,7 +16,8 @@ tags = [
 I have been meaning to learn about database internals. But before that, I wanted to understand the simplest database - the file. Doing this would help me document a mental model of the filesystem.
 
 > As we’ve discussed before, mental models are what you are really trying to develop when learning about systems. For file systems, your mental model should eventually include answers to questions like: what on-disk structures store the file system’s data and metadata? What happens when a process opens a file? Which on-disk structures are accessed during a read or write? By working on and improving your mental model, you develop an abstract understanding of what is going on, instead of just trying to understand the specifics of some file-system code (though that is also useful, of course!).
->        ~ From OSTEP Ch 40 - [File System Implementation](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf)
+>        
+> ~ From OSTEP Ch 40 - [File System Implementation](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf)
 
 
 OS is all about abstractions. The process is an abstraction of the CPU and Memory (via Address Spaces). Thread is an abstraction over something schedulable/runnable. The file system is an abstraction over persistent storage. 

@@ -19,3 +19,7 @@ I'm Komal, a software engineer.
 * [About](/about)
 * [Contact](/contact)
 * [RSS](/posts/index.xml)
+
+
+<script async defer src="https://www.recurse-scout.com/loader.js?t=e057e5f010b860e1385cf8b431774016"></script>
+<div class="rc-scout"></div>

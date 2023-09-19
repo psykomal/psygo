@@ -14,7 +14,7 @@ tags = [
 >}}
 
 
-So I have finally been accepted to the Recurse Center Fall 2, 2023 batch. I am super excited to spend the next 6 weeks learning, collaborating and growing as an engineer. RC has been a dream for a long time and I can't wait to immerse myself in the community. Infact, this was my second attempt trying to get in. I will probably write another post reflecting on my initial rejection, lessons learned and contrasting with the second attempt. For now, I am just celebrating this milestone and looking forward to the retreat. Let the learning begin!
+So I have finally been accepted to the [Recurse Center](https://www.recurse.com/) Fall 2, 2023 batch. I am super excited to spend the next 6 weeks learning, collaborating and growing as an engineer. RC has been a dream for a long time and I can't wait to immerse myself in the community. Infact, this was my second attempt trying to get in. I will probably write another post reflecting on my initial rejection, lessons learned and contrasting with the second attempt. For now, I am just celebrating this milestone and looking forward to the retreat. Let the learning begin!
 
 My major plan is to dive deep into Databases, Distributed Systems and pick up Rust. I also want to explore the low level world of Machine Learning (tinygrad, Mojo). 
 - Databases

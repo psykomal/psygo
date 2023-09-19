@@ -1,6 +1,6 @@
 +++
 author = "psykomal"
-title = "Recuse Center - Accepted!"
+title = "Recurse Center - Accepted!"
 date = "2023-09-18"
 description = ""
 tags = [

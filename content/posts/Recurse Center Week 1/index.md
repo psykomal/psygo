@@ -1,6 +1,6 @@
 +++
 author = "psykomal"
-title = "Recuse Center Week 1 - Takeoff"
+title = "Recurse Center Week 1 - Takeoff"
 date = "2023-09-19"
 description = ""
 tags = [

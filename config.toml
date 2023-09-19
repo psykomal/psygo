@@ -45,5 +45,9 @@ pygmentsUseClasses = true
   url = "contact"
 
 [[params.topmenu]]
+  name = "tags"
+  url = "tags"
+
+[[params.topmenu]]
   name = "rss"
   url = "posts/index.xml"

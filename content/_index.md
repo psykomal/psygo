@@ -17,8 +17,8 @@ I'm Komal, a software engineer.
 
 
 * [About](/about)
-* [Tags](/tags)
 * [Contact](/contact)
+* [Tags](/tags)
 * [RSS](/posts/index.xml)
 
 

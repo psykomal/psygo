@@ -1,7 +1,7 @@
 +++
 author = "psykomal"
 title = "Recurse Center Week 2 - Progress, Propulsion Issues, Reflections"
-date = "2023-09-19"
+date = "2023-10-01"
 description = ""
 tags = [
 	"RC", "retreat", "RC append-only log"

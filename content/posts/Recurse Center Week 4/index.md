@@ -15,7 +15,7 @@ tags = [
 
 
 
-## This week
+## This week 🗓️
 
 - 💭 First things first, these weekly checkpoint reviews help me see what's working and not, realign with the larger goal, and also realign the goal accordingly (haha :)
 
@@ -32,7 +32,7 @@ tags = [
 - 🧑‍💻 In a parallel universe (as a part of Empowered Programmer Cohort), I am also learning about concurrency at a low level. Reading about CAS (Compare and Swap), Non Blocking Data Structures, Primitives. Tried implementing a [simple broadcast op](https://github.com/psykomal/broadcast-rs) in Rust. Picked up [The Art of Multiprocessor Programming](https://www.oreilly.com/library/view/the-art-of/9780123705914/), and its associated [lectures](https://www.youtube.com/playlist?list=PLbsY-4I8oat9o7p4re3308L4uk0YJe8ez), and the CMU Parallel Computer Architecture and Programming course is amazing (doing it in ***parallel*** 😆)
 
 
-## Reflections
+## Reflections 🪩
 
 - I think it's going great. Too many parallel projects, and not enough time. That's life ig.
 

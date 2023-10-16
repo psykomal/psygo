@@ -1,7 +1,7 @@
 +++
 author = "psykomal"
 title = "Recurse Center Week 4 - One Ship, Multiple Worlds"
-date = "2023-10-08"
+date = "2023-10-16"
 description = ""
 tags = [
 	"RC", "retreat", "RC append-only log"

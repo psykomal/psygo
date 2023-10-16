@@ -13,7 +13,7 @@ tags = [
 		  caption="powered by DreamStudio"
 >}}
 
-
+The ship is finally in space. Woohoo! But now there is a new problem. During the launch, there were few destinations, but now in space, new worlds are discovered. Each is more alluring than the other. Where will the ship land? Visit them all? Is there enough fuel? 
 
 ## This week 🗓️
 

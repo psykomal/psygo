@@ -14,7 +14,7 @@ I write about :
 ## About me
 
 
-I am yet another software engineer.
+I am yet another software engineer. I consider myself a Software Ronin.
 
 Previous Life : 
 - Cofounder at Cognirel ([acq. by VerSe](https://www.crunchbase.com/acquisition/verse-innovations-acquires-cognirel--89123fa5))
@@ -25,11 +25,12 @@ Previous Life :
 ### What am I doing now?
 (Updated May 21st, 2023)
 
-- Currently [resting in motion](https://mindingourway.com/rest-in-motion/).
-- Trying to get deeper and learn software internals by building them (think compiler, VM, kernel, database engine, RPi)
-- Exploring the relation between brain, programming and software design
-- Exploring meditation, mental health and reflecting/reorienting my relationship with everything
-- Other misc topics I am reading - Solarpunk, Permaculture, Systems Thinking, LLM stuff
+- 😇 Currently [resting in motion](https://mindingourway.com/rest-in-motion/).
+- 🔩 Trying to get deeper and learn software internals by building them (think compiler, VM, kernel, database engine, RPi)
+- 🦀 Learning and coding in Rust
+- 🧠 Exploring the relation between brain, programming and software design
+- 😇 Exploring meditation, mental health and reflecting/reorienting my relationship with everything
+- ☘️ Other misc topics I am reading - Solarpunk, Permaculture, Systems Thinking, LLM stuff
 - Thinking deeply about Nate Soare's [Minding Our Way](https://mindingourway.com/) articles and Mindful CBT
 
 

@@ -16,7 +16,7 @@ I write about :
 
 I am yet another software engineer. I consider myself a Software Ronin.
 
-Previous Life : 
+Previous Life :
 - Cofounder at Cognirel ([acq. by VerSe](https://www.crunchbase.com/acquisition/verse-innovations-acquires-cognirel--89123fa5))
 - Worked at Interview Kickstart, Flipkart and VMware
 - Bachelor's in Computer Science from BITS Pilani, Pilani
@@ -29,12 +29,11 @@ Previous Life :
 - ⛓️ Learning and diving deep into ICP (Internet Computer) blockchain
 - 🦀 Learning and coding in Rust
 - 🚴😇 Establishing consistent workout and meditation practices
-- 🤖 Exploring AI, LLM, DB tech, OSS, 
-
+- 🤖 Exploring AI, LLM, DB tech, OSS, crypto, and biohacking
 
 ### Random Musings
-- Writing `About Me` is hard. 
-- Few `About Me` pages I like 
+- Writing `About Me` is hard.
+- Few `About Me` pages I like
   - [Gwern's](https://www.gwern.net/Links) - Very sophisticated
   - [Derek Sivers](https://sive.rs/) - Well structured keeping the reader in mind
   - [Julia Evans](https://jvns.ca/about/) - Simple and to the point

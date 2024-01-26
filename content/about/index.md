@@ -5,8 +5,8 @@ title: "About"
 ## About this blog
 
 I write about :
-- Software systems, internals and design
-- Neuro and biological systems. I believe learning brain and body internals will help us become better brain and body users
+- 🔩 Software systems, internals and design
+- 🧠 Neuro and biological systems. I believe learning brain and body internals will help us become better brain and body users
 - Lifestyle systems relating to mental health, meditation, solarpunk
 
 
@@ -23,15 +23,13 @@ Previous Life :
 
 
 ### What am I doing now?
-(Updated May 21st, 2023)
+(Updated Jan 26th, 2024)
 
-- 😇 Currently [resting in motion](https://mindingourway.com/rest-in-motion/).
-- 🔩 Trying to get deeper and learn software internals by building them (think compiler, VM, kernel, database engine, RPi)
+- 🔥 Working remotely at [HotOrNot](https://dashboard.internetcomputer.org/sns/67bll-riaaa-aaaaq-aaauq-cai)
+- ⛓️ Learning and diving deep into ICP (Internet Computer) blockchain
 - 🦀 Learning and coding in Rust
-- 🧠 Exploring the relation between brain, programming and software design
-- 😇 Exploring meditation, mental health and reflecting/reorienting my relationship with everything
-- ☘️ Other misc topics I am reading - Solarpunk, Permaculture, Systems Thinking, LLM stuff
-- Thinking deeply about Nate Soare's [Minding Our Way](https://mindingourway.com/) articles and Mindful CBT
+- 🚴😇 Establishing consistent workout and meditation practices
+- 🤖 Exploring AI, LLM, DB tech, OSS, 
 
 
 ### Random Musings

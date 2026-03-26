@@ -2,39 +2,58 @@
 title: "About"
 ---
 
-## About this blog
-
-I write about :
-- 🔩 Software systems, internals and design
-- 🧠 Neuro and biological systems. I believe learning brain and body internals will help us become better brain and body users
-- Lifestyle systems relating to mental health, meditation, solarpunk
-
-
-
 ## About me
 
+I'm Komal. I build high-performance distributed systems, mostly in Rust.
 
-I am yet another software engineer. I consider myself a Software Ronin.
+I gravitate toward domains where latency and correctness matter —
+AI inference, real-time trading infrastructure, video processing
+at scale. The common thread is always systems depth: lock-free
+data structures, event-driven pipelines, bare-metal deployments,
+and getting the last millisecond out of the critical path.
 
-Previous Life :
-- Cofounder at Cognirel ([acq. by VerSe](https://www.crunchbase.com/acquisition/verse-innovations-acquires-cognirel--89123fa5))
-- Worked at Interview Kickstart, Flipkart and VMware
-- Bachelor's in Computer Science from BITS Pilani, Pilani
+In a room of ML engineers, I'm the one who can ship Rust production
+systems. In a room of Rust engineers, I'm the one who understands
+inference pipelines and on-chain settlement. In a room of crypto
+engineers, I'm the one thinking about systems-level performance
+optimization. The intersection is small.
 
+### Now
 
-### What am I doing now?
-(Updated Jan 26th, 2024)
+(Updated March 2026)
 
-- 🔥 Working remotely at [HotOrNot](https://dashboard.internetcomputer.org/sns/67bll-riaaa-aaaaq-aaauq-cai)
-- ⛓️ Learning and diving deep into ICP (Internet Computer) blockchain
-- 🦀 Learning and coding in Rust
-- 🚴😇 Establishing consistent workout and meditation practices
-- 🤖 Exploring AI, LLM, DB tech, OSS, crypto, and biohacking
+- Building and exploring interests - sandbox orchestration, trading systems, BFT consensus, RL envs...
+- Based in Hyderabad, working remotely
 
-### Random Musings
-- Writing `About Me` is hard.
-- Few `About Me` pages I like
-  - [Gwern's](https://www.gwern.net/Links) - Very sophisticated
-  - [Derek Sivers](https://sive.rs/) - Well structured keeping the reader in mind
-  - [Julia Evans](https://jvns.ca/about/) - Simple and to the point
-- I plan to redesign this page at some point when I understand myself better
+### Previously
+
+**Lead Engineer at YRAL** (2024-2025). Short-video platform on the Internet Computer blockchain. High-throughput event-driven video processing pipelines, a hybrid Rust/Python recommendation system, infra migration, observability.
+
+**Recurse Center** (2023). Built a distributed persistent KV store from scratch in Rust. Raft consensus, Bitcask storage engine, custom threadpool, async I/O. Also built a BitTorrent client, HTTP proxy, and SQL parser. [Blog posts from the batch](/tags/rc/).
+
+**Co-founder at Cognirel** (2019-2021). Pre-GPT conversational AI platform built on knowledge graphs. Led a team of 7. [Acquired by VerSe/Dailyhunt](https://www.crunchbase.com/acquisition/verse-innovations-acquires-cognirel--89123fa5).
+
+**Before that:** Interview Kickstart (backend, async infrastructure, perf optimization), Flipkart (ML pipelines, image understanding), VMware. CS from BITS Pilani.
+
+### The long game
+
+I care about intelligence and complex systems — artificial
+intelligence, financial markets, and eventually the nature of
+consciousness itself. These domains share more than people think:
+real-time decision-making under uncertainty, distributed
+coordination, and the challenge of building systems that are
+both fast and correct.
+
+The decade-long arc points toward neuroscience, brain-computer
+interfaces, and consciousness research. The work I do now —
+whether it's optimizing inference pipelines or building trading
+infrastructure — is all groundwork for understanding how
+intelligence works at the deepest level.
+
+### This blog
+
+I write about systems internals, distributed systems design, and occasionally about neuroscience and how biological systems work. The [12 days of blogging](/tags/12-days/) series covers low-level topics like epoll, file systems, caching, and nginx internals.
+
+### Get in touch
+
+[bkomalsai@gmail.com](mailto:bkomalsai@gmail.com) · [GitHub](https://github.com/psykomal) · [LinkedIn](https://linkedin.com/in/psykomal)

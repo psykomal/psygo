@@ -22,7 +22,7 @@ optimization. The intersection is small.
 
 (Updated March 2026)
 
-- Building and exploring interests - sandbox orchestration, trading systems, BFT consensus, RL envs...
+- Building and exploring interests - sandbox orchestration, trading systems, BFT consensus, RL envs, local ML...
 - Based in Hyderabad, working remotely
 
 ### Previously
